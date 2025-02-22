@@ -13,3 +13,20 @@
 #13
 #14
 #FizzBuzz
+
+intList = list(range(1, 26)) # If square brackets are used where yellow () are, error developes on line 21.
+
+for number in intList:
+
+    if number % 3 == 0 and number % 5 == 0:  #This code will only work if placed first with the IF statement.
+        print("FizzBuzz")
+
+    elif number % 3 == 0:
+        print("Fizz")
+    
+    elif number % 5 == 0:
+        print("Buzz")
+
+    else:
+        print(number)
+
